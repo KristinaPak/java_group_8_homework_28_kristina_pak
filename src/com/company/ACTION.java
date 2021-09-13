@@ -8,7 +8,7 @@ public enum ACTION {
     WHEEL_IS_BROKEN( "Сломалось колесо"),
     RIVER( "Река"),
     MEET_LOCAL( "Встретил местного"),
-    BANDITS_ON_THE_ROAD("Разбойники больщой дороги"),
+    BANDITS_ON_THE_ROAD("Разбойники большой дороги"),
     SHOP("Придорожный трактир"),
     GOOD_IS_GONE("Товар испортился");
     private String description;
