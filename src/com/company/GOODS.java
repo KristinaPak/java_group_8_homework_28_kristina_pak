@@ -116,7 +116,7 @@ public enum GOODS {
                 System.out.println("Качество краски снизилось ");
             } else if (PAINT.quality == QUALITY.ALMOST_SPOIL.name()) {
                 GOODS.PAINT.quality = QUALITY.NOT_FOR_USE.name();
-                System.out.println("Качество краски снизилось ");
+                System.out.println("Качество краски снизилось  ");
             }
         }
     }
