@@ -46,7 +46,6 @@ public class Main {
         ACTION newAction = action;
         int newSpeed;
         int distance = City.distance;
-        for (int dis = City.distance; dis <= 0; dis--) {
             switch (action) {
                 case USUAL_DAY:
                     System.out.println(ACTION.USUAL_DAY.getDescription());
@@ -212,9 +211,9 @@ public class Main {
             if (City.distance <= 0) {
                 System.out.println("Вы добрались до пункта назначения!");
                 printEvent();
-                break;
+
             }
-        }
+
 
 
         printAction(newAction);
