@@ -17,14 +17,14 @@ public class City {
         cities[2] = new City("Полдей", 75);
         cities[3] = new City("Санле", 55);
         cities[4] = new City("Манслав", 65);
-        int helper = (int) (Math.random() * 4);
-        if (helper == 0) {
+        int r = (int) (Math.random() * 4);
+        if (r == 0) {
             System.out.println("         Пункт назначения: город " + cities[0].name + ", расстояние: " + cities[0].distance + " лиг");
-        } else if (helper == 1) {
+        } else if (r == 1) {
             System.out.println("     Пункт назначения: город " + cities[1].name + ", расстояние: " + cities[1].distance + " лиг");
-        } else if (helper == 2) {
+        } else if (r == 2) {
             System.out.println("       Пункт назначения: город " + cities[2].name + ", расстояние: " + cities[2].distance + " лиг");
-        } else if (helper == 3) {
+        } else if (r == 3) {
             System.out.println("         Пункт назначения: город " + cities[3].name + ", расстояние: " + cities[3].distance + " лиг");
         } else {
             System.out.println("      Пункт назначения: город " + cities[4].name + ", расстояние: " + cities[4].distance + " лиг");
